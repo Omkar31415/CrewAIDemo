@@ -9,7 +9,7 @@ import os
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 os.environ["OPENAI_MODEL_NAME"]="gpt-4o-mini"
 
-#Create a senior blog content researcher
+## Create a senior blog content researcher
 blog_researcher=Agent(
     role='Blog Researcher from Youtube Videos',
     goal='Get relevant blog content for the topic{topic} from Youtube videos',

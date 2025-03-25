@@ -2,7 +2,7 @@ from crewai import Task
 from tools import yt_tool
 from agents import blog_researcher, blog_writer
 
-# Research Task
+## Research Task
 research_task = Task(
   description=(
     "Identify the video {topic}."

@@ -2,7 +2,7 @@ from crewai import Crew,Process
 from agents import blog_researcher, blog_writer
 from tasks import research_task, write_task 
 
-# Create a crew
+## Create a crew
 crew = Crew(
     name='Blog Writing Crew',
     agents=[blog_researcher, blog_writer],

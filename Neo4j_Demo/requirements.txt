@@ -1,0 +1,9 @@
+langchain
+langchain_community
+langchain_openai
+langchain_groq
+langchain-neo4j
+python-dotenv
+streamlit
+ipykernel
+langchain_experimental
